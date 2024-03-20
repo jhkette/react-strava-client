@@ -26,7 +26,7 @@ function App() {
   const [boxHill, setBoxHill] = useState({});
   const [message, setMessage] = useState("");
 
-  const baseURL = process.env.SERVER;
+  const baseURL = "http://34.135.131.92";
 
   /*
    * Useffect function runs when page loads,
